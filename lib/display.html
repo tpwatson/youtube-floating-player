@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>YouTube Floating Player</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
+  <script>
+    window.$ = window.jQuery = require('jquery');
+</script>
+  <script src="ui.js"></script>
+</head>
+
+<body>
+  <div id="draggableArea">
+  </div>
+  <div id="displayArea">
+    <input type="text" name="videoUrl" value="" placeholder="Paste Video URL">
+    <iframe src="https://www.youtube.com/embed/kvN2CXlA3Uw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+</body>
+
+</html>
