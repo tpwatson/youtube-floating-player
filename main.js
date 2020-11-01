@@ -22,7 +22,8 @@ require('electron-reload')(__dirname, {
       frame: false,
       alwaysOnTop: true,
       resizable: true,
-      transparent: true
+      transparent: true,
+      webPreferences: {nodeIntegration: true}
     });
     // get user's screen data to position app window above tray
     let screenElectron = electron.screen,
